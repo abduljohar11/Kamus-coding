@@ -1,19 +1,16 @@
 export default {
   title: "Kamus Coding kangajo",
   description: "Kamus coding pribadi",
-  base: "/Kamus-coding/", // WAJIB: Sesuaikan dengan nama repo GitHub kamu
+  base: "/Kamus-coding/",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Panduan", link: "/README" },
+      { text: "README", link: "/README" },
     ],
     sidebar: [
       {
-        text: "Daftar Isi",
-        items: [
-          { text: "Pendahuluan", link: "/README" },
-          { text: "Kamus HTML", link: "/html" },
-        ],
+        text: "Materi",
+        items: [{ text: "Panduan", link: "/README" }],
       },
     ],
   },
