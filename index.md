@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Kamus Coding"
   text: "Catatan Belajar & Snippet"
-  tagline: Dokumentasi pribadi untuk pengembangan aplikasi PPOB dan Flutter.
+  tagline: Dokumentasi pribadi.
   actions:
     - theme: brand
       text: Mulai Belajar
@@ -15,9 +15,9 @@ hero:
 
 features:
   - title: 📱 Mobile Development
-    details: Catatan belajar Flutter untuk aplikasi absensi offline dan integrasi Android.
+    details: Catatan belajar Flutter untuk Android.
   - title: 🌐 Web Development
-    details: Snippet Laravel dan PHP untuk pengembangan proyek PPOB Ajocell.
+    details: laravel.
   - title: ⚙️ Automasi & Bot
     details: Dokumentasi Python bot dan berbagai skrip automasi yang sedang dikembangkan.
 ---
@@ -26,11 +26,8 @@ features:
 
 Pilih kategori di bawah ini untuk melihat detail catatan:
 
-- [Panduan Penggunaan](/README)
-- [Materi HTML & CSS](./materi/html-css.md) (Contoh folder materi)
-- [Catatan Laravel](./materi/laravel.md)
-- [Catatan Flutter](./materi/flutter.md)
+- [Laravel & Reack ](./laravel-reack/index.md)
 
 ---
 
-_Dibuat dengan ❤️ oleh kangajo menggunakan VitePress_
+Dibuat dengan ❤️ oleh kangajo
