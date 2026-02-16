@@ -54,7 +54,7 @@ return new class extends Migration
         // Menghapus tabel 'produk' jika ingin membatalkan migrasi
         Schema::dropIfExists('produk');
     }
-};
+};'''
 
 
 Catatan: Dengan migration, Anda tidak perlu lagi mengirim file .sql atau export-import database secara manual saat bekerja dalam tim. Cukup bagikan file migration ini melalui Git.
