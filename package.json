@@ -1,16 +1,17 @@
 {
+  "name": "kamus-coding",
+  "version": "1.0.0",
+  "description": "Kamus coding pribadi untuk catatan belajar.",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev y",
-    "docs:build": "vitepress build y",
-    "docs:preview": "vitepress preview y"
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
     "vitepress": "^1.6.4"
   },
-  "name": "kamus-coding",
-  "version": "1.0.0",
-  "description": "Gunakan halaman ini sebagai contekan saat kamu ingin menambah materi baru ke kamus koding kamu.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abduljohar11/Kamus-coding.git"
@@ -18,7 +19,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/abduljohar11/Kamus-coding/issues"
   },
