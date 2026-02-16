@@ -23,12 +23,13 @@ Bantu pembaca menemukan poin penting dengan format ini:
 ---
 
 ## 3. Blok Kode (Paling Penting!)
-Agar kode program kamu bisa di-copy dan berwarna, gunakan triple backtick diikuti nama bahasanya.
+Agar kode program kamu bisa di-copy dan berwarna, gunakan triple backtick diikuti nama bahasanya. Jangan lupa menutupnya dengan triple backtick lagi di akhir kode.
 
-### Contoh PHP (Laravel)
+### Contoh PHP (Laravel - Inertia)
 ```php
 public function index()
 {
+    // Mengirim data ke React
     return Inertia::render('Dashboard', [
         'users' => User::all()
     ]);
