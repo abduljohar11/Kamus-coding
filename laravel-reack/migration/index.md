@@ -6,7 +6,7 @@ Daftar ini berisi kompetensi utama yang harus dikuasai untuk mengelola database 
 
 ## 1. Konsep Dasar & Siklus Hidup
 
-- Pengenalan Migration: Memahami peran migration sebagai _version control_ untuk skema database.
+- [Pengenalan](./pengenalan.md) Migration Memahami peran migration sebagai _version control_ untuk skema database.
 - Struktur File: Mempelajari fungsi method up() (untuk menjalankan perubahan) dan down() (untuk membatalkan perubahan).
 - Perintah Artisan Utama:
   - php artisan make:migration: Membuat file skema baru.
