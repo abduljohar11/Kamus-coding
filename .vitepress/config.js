@@ -2,6 +2,7 @@ export default {
   title: "Kamus Coding kangajo",
   description: "Kamus coding pribadi",
   base: "/Kamus-coding/",
+  ignoreDeadLinks: true,
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
