@@ -4,6 +4,10 @@ export default {
   base: "/Kamus-coding/",
   ignoreDeadLinks: true,
   themeConfig: {
+    // Fitur Pencarian Lokal
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "README", link: "/README" },
